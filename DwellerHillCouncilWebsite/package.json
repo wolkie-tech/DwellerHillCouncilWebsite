@@ -1,0 +1,15 @@
+{
+  "name": "dwellerhillcouncilwebsite",
+  "version": "1.0.0",
+  "description": "Website for the parish and town council websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i tailwindsource.css -o /wwwroot/css/site.css --watch"
+  },
+  "author": "Peter Bowden",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
