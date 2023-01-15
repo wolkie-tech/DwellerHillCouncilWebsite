@@ -1,4 +1,6 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿let btnMenu = document.getElementById("btn-menu");
 
-// Write your JavaScript code.
+btnMenu.addEventListener("click", function () {
+    let navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("hidden");
+});

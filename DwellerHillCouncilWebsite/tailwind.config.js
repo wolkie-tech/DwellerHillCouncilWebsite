@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./Pages/*.cshtml", "./Pages/**/*.cshtml"],
   theme: {
-    extend: {},
+      extend: {
+          colors: {
+              primary: "#175873"
+              }
+      },
   },
   plugins: [],
 }

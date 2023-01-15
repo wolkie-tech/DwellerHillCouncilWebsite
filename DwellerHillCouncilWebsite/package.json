@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "npx tailwindcss -i tailwindsource.css -o /wwwroot/css/site.css --watch"
+    "tailwind": "npx tailwindcss -i tailwindsource.css -o wwwroot/css/site.css --watch"
   },
   "author": "Peter Bowden",
   "license": "ISC",

@@ -1,10 +1,87 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="lg:flex bg-slate-200">
+    <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
+        <div class="max-w-xl">
+            <h2 class="text-3xl font-semibold text-gray-800 lg:text-4xl">Build Your New <span class="text-primary">Town or Parish</span> Council Website Here</h2>
+
+            <p class="mt-4 text-sm text-gray-500 lg:text-base">Dweller Hill is pioneering a new type of first tier government website. One that is focussed on engaging with the community</p>
+            <p class="mt-4 text-sm text-gray-500 lg:text-base">With built in community tools as standard like polling, user managed groups and comment sections keep your residents engaged</p>
+            <p class="mt-4 text-sm text-gray-500 lg:text-base">Use our organisational tools to keep your meeting informaton, agendas, minutes and documents all in the same place allowing easier searching</p>
+            <div class="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                <a href="#" class="block px-6 py-2.5 text-sm font-medium tracking-wider text-center text-white uppercase transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-700">Tell me more</a>
+                <a href="#" class="block px-6 py-2.5 text-sm font-medium tracking-wider text-center text-gray-700 uppercase transition-colors duration-300 transform bg-gray-200 rounded-md lg:mx-4 hover:bg-gray-300">Contact us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-64 lg:w-1/2 lg:h-auto">
+        <div class="w-full h-full bg-cover" style="background-image: url(/images/laptop.jpg)">
+            <div class="w-full h-full bg-black opacity-25"></div>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-3xl font-semibold text-center text-gray-800 lg:text-4xl">Explore Our <br> Exclusive <span class="text-primary">Features</span></h1>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
+            <div class="flex flex-col items-center p-6 space-y-3 text-center bg-slate-100 rounded-xl">
+                <span class="inline-block p-3 text-primary bg-slate-100 rounded-full">
+                    <i class="bi bi-people text-3xl"></i>
+                </span>
+
+                <h1 class="text-2xl font-semibold text-primary">Community Groups</h1>
+
+                <p class="text-gray-500">
+                   With the Community Groups tool you can assign accounts to communities in your town or parish. These groups can then add posts and events that integrate with your site as if written by you.
+                </p>
+
+                <a href="#" class="flex items-center -mx-1 text-sm text-primary transition-colors duration-300 transform hover:underline">
+                    <span class="mx-1">Read More</span>
+                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+
+            <div class="flex flex-col items-center p-6 space-y-3 text-center bg-slate-100 rounded-xl">
+                <span class="inline-block p-3 text-primary bg-slate-100 rounded-full">
+                    <i class="bi bi-check-square text-3xl"></i>
+                </span>
+
+                <h1 class="text-2xl font-semibold text-primary">Integrated Polling</h1>
+
+                <p class="text-gray-500">
+                    When you need to get residents' opinion you can start a poll on your website. This is a fully integrated system, create as many as you want with no restrictions on quantity or visibilty of results
+                </p>
+
+                <a href="#" class="flex items-center -mx-1 text-sm text-primary transition-colors duration-300 transform hover:underline">
+                    <span class="mx-1">Read More</span>
+                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+
+            <div class="flex flex-col items-center p-6 space-y-3 text-center bg-slate-100 rounded-xl">
+                <span class="inline-block p-3 text-primary bg-slate-100 rounded-full">
+                    <i class="bi bi-chat-right-text text-3xl"></i>
+                </span>
+
+                <h1 class="text-2xl font-semibold text-primary">Have Your Say</h1>
+
+                <p class="text-gray-500">
+                    Add a comments feed to any post with the click of a button and allow residents to comment on the posts that interest them.
+                </p>
+
+                <a href="#" class="flex items-center -mx-1 text-sm text-primary transition-colors duration-300 transform hover:underline">
+                    <span class="mx-1">Read More</span>
+                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
